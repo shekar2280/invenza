@@ -1,0 +1,93 @@
+.container {
+    background-color: var(--bgSoft);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .addButton {
+    padding: 10px;
+    background-color: #abc2f5;
+    color: var(--text);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .heading{
+      text-align: center;
+      justify-content: center;
+      font-weight: bold;
+  }
+  
+  .items{
+      text-align: center;
+  }
+  
+  
+  .table td {
+    padding: 10px;
+  }
+  
+  .category{
+    text-transform: capitalize;
+  }
+
+  .status{
+    text-transform: capitalize;
+  }
+
+.customer_type{
+  text-transform: capitalize;
+}
+ 
+  
+  .buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: var(--text);
+    border: none;
+    cursor: pointer;
+  }
+  
+  .view {
+    background-color: teal;
+  }
+  
+  .pending {
+    background-color: rgb(220, 141, 80);
+    color: black;
+  }
+  
+  .done {
+    background-color: rgb(80, 220, 99);
+    color: black;
+  }
+  
+  .cancelled {
+    background-color: rgb(220, 80, 80);
+    color: black;
+  }
+  
+  .status {
+    text-transform: capitalize;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+  }

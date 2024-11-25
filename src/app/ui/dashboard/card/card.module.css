@@ -1,0 +1,61 @@
+.container{
+    background-color: var(--bgSoft);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+.container:hover{
+ background-color: #b7c9f0;   
+}
+
+.title{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.texts{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.image{
+    padding: 10px;
+    background-color: rgb(196, 181, 209);
+    border-radius: 20px;
+}
+
+.number{
+    font-size: 24px;
+    font-weight: 500;
+    text-align:center;
+    justify-content: center;
+}
+
+.detail{
+    font-size: 14px;
+    font-weight: 300;
+   
+}
+
+.positive{
+    color: rgb(104, 247, 104);
+}
+
+.negative{
+    color: red;
+}

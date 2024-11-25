@@ -1,0 +1,70 @@
+.container {
+    background-color: var(--bgSoft);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding-left: 20px;
+  }
+  
+  .top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .addButton {
+    background-color: #abc2f5;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .addButton:hover {
+    background-color: #abc2f5;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .heading {
+    background-color: #f5f5f5;
+    text-align: center;
+    
+  }
+  
+  .heading td {
+    padding: 10px;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .items td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .view {
+    background-color: teal;
+    color: black;
+  }
+  
+  .delete {
+    background-color: crimson;
+    color: black;
+  }

@@ -1,0 +1,95 @@
+.container {
+  background-color: var(--bgSoft);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.addButton {
+  padding: 10px;
+  background-color: #abc2f5;
+  color: var(--text);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+.csvButton{
+  padding: 10px;
+  background-color: #abc2f5;
+  color: var(--text);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.heading{
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.items{
+    text-align: center;
+}
+
+
+.table td {
+  padding: 10px;
+}
+
+
+.product {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  gap: 10px;
+}
+
+
+.productImage {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: var(--text);
+  border: none;
+  cursor: pointer;
+}
+
+.view {
+  background-color: teal;
+}
+
+.delete {
+  background-color: crimson;
+}
+
+table tr.expirySoon {
+  background-color: rgba(255, 0, 0, 0.1); 
+}
+
+.category{
+    text-transform: capitalize;
+}

@@ -1,0 +1,41 @@
+/* export.module.css */
+.exportButton {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .exportButton:hover {
+    background-color: #45a049; /* Darker green */
+    transform: translateY(-2px); /* Slight hover effect */
+  }
+  
+  .exportButton:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+    transform: none; /* Remove hover effect */
+  }
+  
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  /* Centering container for the button and error message */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 0;
+  }
+  
